@@ -45,7 +45,7 @@ A couple of pretrained models are provided. They are trained using softmax loss 
 ![result2.png](https://github.com/Knightzjz/University-ML-Camp-Jeju-2019/blob/master/models/R2.png)
 
 ## Keep Updated
-<b><I>If you want to watch the progress of FPLV, please check [My Github io Page](https://knightzjz.github.io)  or the hooked [My Personal Webpage](https://bluebalwyy.com). 
+<b><I>If you want to watch the progress of FPLV, please check [My Github io Page](https://knightzjz.github.io)  or the hooked [My Personal Webpage](https://bluebalwyy.com). </b></>
 
 
 ## License
