@@ -5,7 +5,7 @@
 This is a TensorFlow implementation of the<b>Face Pixelation in Live Video Streaming </b>project of <font color="red"><b><I>University ML Camp Jeju 2019</font></b></I>. Some of the code is built on the MTCNN work in [MTCNN-Tensorflow](https://github.com/AITTSMD/MTCNN-Tensorflow) and [MTCNN_face_detection_alignment](https://github.com/kpzhang93/MTCNN_face_detection_alignment).<br>
     
 ## Compatibility
-The code is tested using Tensorflow r1.7 under Ubuntu 14.04 with Python 2.7 and Python 3.5. 
+The code is tested using Tensorflow 1.12.1 under Ubuntu 14.04 with Python 2.7. 
 ## News
 | Date     | Update |
 |----------|--------|
@@ -43,6 +43,10 @@ A couple of pretrained models are provided. They are trained using softmax loss 
 ![result1.png](https://github.com/Knightzjz/University-ML-Camp-Jeju-2019/blob/master/models/R1.png)
 
 ![result2.png](https://github.com/Knightzjz/University-ML-Camp-Jeju-2019/blob/master/models/R2.png)
+
+## Keep Updated
+<font face="verdana" color="green">This is some text!</font>
+
 
 ## License
 MIT LICENSE
