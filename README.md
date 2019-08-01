@@ -2,23 +2,7 @@
 
 [travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master
 
-This is a TensorFlow implementation of the Face Pixelation in Live Video Streaming project of University ML Camp Jeju 2019. Some of the code is built on the MTCNN work in [MTCNN-Tensorflow](https://github.com/AITTSMD/MTCNN-Tensorflow) and [MTCNN_face_detection_alignment](https://github.com/kpzhang93/MTCNN_face_detection_alignment).
-
-Note: Please cite the paper if you use the code for implementation.
-### Citation
-    @article{7553523,
-        author={K. Zhang and Z. Zhang and Z. Li and Y. Qiao}, 
-        journal={IEEE Signal Processing Letters}, 
-        title={Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks}, 
-        year={2016}, 
-        volume={23}, 
-        number={10}, 
-        pages={1499-1503}, 
-        keywords={Benchmark testing;Computer architecture;Convolution;Detectors;Face;Face detection;Training;Cascaded convolutional neural network (CNN);face alignment;face detection}, 
-        doi={10.1109/LSP.2016.2603342}, 
-        ISSN={1070-9908}, 
-        month={Oct}
-    }
+This is a TensorFlow implementation of the Face Pixelation in Live Video Streaming project of <h3><I>University ML Camp Jeju 2019</h3></I>. Some of the code is built on the MTCNN work in [MTCNN-Tensorflow](https://github.com/AITTSMD/MTCNN-Tensorflow) and [MTCNN_face_detection_alignment](https://github.com/kpzhang93/MTCNN_face_detection_alignment).<br>
     
 ## Compatibility
 The code is tested using Tensorflow r1.7 under Ubuntu 14.04 with Python 2.7 and Python 3.5. 
@@ -59,3 +43,29 @@ A couple of pretrained models are provided. They are trained using softmax loss 
 ![result1.png](https://github.com/Knightzjz/University-ML-Camp-Jeju-2019/blob/master/models/R1.png)
 
 ![result2.png](https://github.com/Knightzjz/University-ML-Camp-Jeju-2019/blob/master/models/R2.png)
+
+## License
+MIT LICENSE
+
+## References
+1. Kaipeng Zhang, Zhanpeng Zhang, Zhifeng Li, Yu Qiao , " Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks," IEEE Signal Processing Letter
+2. [MTCNN-MXNET](https://github.com/Seanlinx/mtcnn)
+3. [MTCNN-CAFFE](https://github.com/CongWeilin/mtcnn-caffe)
+4. [deep-landmark](https://github.com/luoyetx/deep-landmark)
+
+Note: Please cite the paper if you use the code for implementation.
+
+### Citation
+    @article{7553523,
+        author={K. Zhang and Z. Zhang and Z. Li and Y. Qiao}, 
+        journal={IEEE Signal Processing Letters}, 
+        title={Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks}, 
+        year={2016}, 
+        volume={23}, 
+        number={10}, 
+        pages={1499-1503}, 
+        keywords={Benchmark testing;Computer architecture;Convolution;Detectors;Face;Face detection;Training;Cascaded convolutional neural network (CNN);face alignment;face detection}, 
+        doi={10.1109/LSP.2016.2603342}, 
+        ISSN={1070-9908}, 
+        month={Oct}
+    }
