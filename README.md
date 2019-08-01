@@ -32,11 +32,10 @@ The code is tested using Tensorflow r1.7 under Ubuntu 14.04 with Python 2.7 and 
 
 ## Pre-trained models
 I offerred the pretrained model from some existing models since these pre-trained models are well-tunned and generally may work better in conventional testing cases. You can replace them to yours by running the face_detection_sub_models/detect_face.py /& face_recognition_sub_models/train_test.py.
-| Model name      | LFW accuracy | Training dataset | Architecture |
-|-----------------|--------------|------------------|-------------|
-| [20180408-102900](https://drive.google.com/open?id=1R77HmFADxe87GmoLwzfgMu_HY0IhcyBz) | 0.9905        | CASIA-WebFace    | [Inception ResNet v1]|
-| [20180402-114759](https://drive.google.com/open?id=1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-) | 0.9965        | VGGFace2      | [Inception ResNet v1]|
-
+| Model name      | 
+|-----------------|
+| [20180408-102900](https://drive.google.com/open?id=1R77HmFADxe87GmoLwzfgMu_HY0IhcyBz) |
+| [20180402-114759](https://drive.google.com/open?id=1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-)|
 NOTE: If you use any of the models, please do not forget to give proper credit to those providing the training dataset as well.
 
 ## Inspiration
