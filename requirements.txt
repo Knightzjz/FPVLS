@@ -1,9 +1,10 @@
-tensorflow==1.7
+tensorflow>=1.12.1
 scipy
-scikit-learn
-opencv-python
-h5py
-matplotlib
-Pillow
-requests
-psutil
+scikit-learn>=0.9
+opencv-python or cython
+h5py (not compulsory)
+matplotlib(not compulsory)
+Pillow(not compulsory)
+requests(not compulsory)
+psutil(not compulsory)
+(not compulsory) means you can jump this model if you don't need to retrained the model
