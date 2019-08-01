@@ -53,3 +53,9 @@ Currently, the best results are achieved by training the model using softmax los
 ## Pre-trained models
 ### Inception-ResNet-v1 model
 A couple of pretrained models are provided. They are trained using softmax loss with the Inception-Resnet-v1 model.
+
+## Result
+
+![result1.png](https://github.com/Knightzjz/University-ML-Camp-Jeju-2019/blob/master/models/R1.png)
+
+![result2.png](https://github.com/Knightzjz/University-ML-Camp-Jeju-2019/blob/master/models/R2.png)
