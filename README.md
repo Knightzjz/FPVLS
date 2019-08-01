@@ -32,7 +32,7 @@ The [CASIA-WebFace](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html
 The best performing model has been trained on the [VGGFace2](https://www.robots.ox.ac.uk/~vgg/data/vgg_face2/) dataset consisting of ~3.3M faces and ~9000 classes.
 
 ## Running training
-Currently, the best results are achieved by training the model using softmax loss. Details on how to train a model using softmax loss on the CASIA-WebFace dataset can be found on the page [Classifier training of Inception-ResNet-v1](https://github.com/davidsandberg/facenet/wiki/Classifier-training-of-inception-resnet-v1) and .
+Currently, the best results are achieved by training the model using softmax loss. Details on how to train a model using softmax loss on the CASIA-WebFace dataset can be found on the page [Classifier training of Inception-ResNet-v1](https://github.com/davidsandberg/facenet/wiki/Classifier-training-of-inception-resnet-v1).
 
 ## Pre-trained models
 ### Inception-ResNet-v1 model
@@ -45,7 +45,7 @@ A couple of pretrained models are provided. They are trained using softmax loss 
 ![result2.png](https://github.com/Knightzjz/University-ML-Camp-Jeju-2019/blob/master/models/R2.png)
 
 ## Keep Updated
-<font face="verdana" color="green">This is some text!</font>
+<b><I>If you want to watch the progress of FPLV, please check [My Github io Page](https://knightzjz.github.io)  or the hooked [My Personal Webpage](https://bluebalwyy.com). 
 
 
 ## License
