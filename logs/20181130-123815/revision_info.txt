@@ -1,0 +1,74 @@
+arguments: train_tripletloss.py --logs_base_dir /home/knight/facenet/logs/ --models_base_dir /home/knight/facenet/models/ --gpu_memory_fraction 0.9 --data_dir /home/knight/datasets/CASIA/aligned --image_size 160 --model_def models.inception_resnet_v1 --optimizer RMSPROP --learning_rate 0.001 --weight_decay 1e-4 --max_nrof_epochs 1000
+--------------------
+tensorflow version: 1.12.0
+--------------------
+git hash: 096ed770f163957c1e56efa7feeb194773920f6e
+--------------------
+diff --git a/data/images/Anthony_Hopkins_0001.jpg b/data/images/Anthony_Hopkins_0001.jpg
+deleted file mode 100644
+index 3d65e04..0000000
+Binary files a/data/images/Anthony_Hopkins_0001.jpg and /dev/null differ
+diff --git a/data/images/Anthony_Hopkins_0002.jpg b/data/images/Anthony_Hopkins_0002.jpg
+deleted file mode 100644
+index 55844e5..0000000
+Binary files a/data/images/Anthony_Hopkins_0002.jpg and /dev/null differ
+diff --git a/src/align/detect_face.py b/src/align/detect_face.py
+index 7f98ca7..e7044e9 100644
+--- a/src/align/detect_face.py
++++ b/src/align/detect_face.py
+@@ -1,9 +1,6 @@
+-""" Tensorflow implementation of the face detection / alignment algorithm found at
+-https://github.com/kpzhang93/MTCNN_face_detection_alignment
+-"""
+ # MIT License
+ # 
+-# Copyright (c) 2016 David Sandberg
++# Copyright (c) 2018 Knight Zhou
+ # 
+ # Permission is hereby granted, free of charge, to any person obtaining a copy
+ # of this software and associated documentation files (the "Software"), to deal
+diff --git a/src/classifier.py b/src/classifier.py
+index 749db4d..92b216f 100644
+--- a/src/classifier.py
++++ b/src/classifier.py
+@@ -1,8 +1,6 @@
+-"""An example of how to use your own dataset to train a classifier that recognizes people.
+-"""
+ # MIT License
+ # 
+-# Copyright (c) 2016 David Sandberg
++# Copyright (c) 2018 Knight Zhou
+ # 
+ # Permission is hereby granted, free of charge, to any person obtaining a copy
+ # of this software and associated documentation files (the "Software"), to deal
+@@ -35,6 +33,7 @@ import sys
+ import math
+ import pickle
+ from sklearn.svm import SVC
++from sklearn.metrics.pairwise import cosine_similarity
+ 
+ def main(args):
+   
+@@ -92,8 +91,21 @@ def main(args):
+             if (args.mode=='TRAIN'):
+                 # Train classifier
+                 print('Training classifier')
+-                model = SVC(kernel='linear', probability=True)
++
++
++                #model = SVC(kernel='linear', probability=True)
++
++                #model = SVC(kernel='rbf', probability=True)
++
++                #model = SVC(kernel='poly', degree=3, probability=True)
++
++                
++                model = SVC(kernel=cosine_similarity, gamma='auto',probability=True)
++
+                 model.fit(emb_array, labels)
++
++
++
+             
+                 # Create a list of class names
+                 class_names = [ cls.name.replace('_', ' ') for cls in dataset]

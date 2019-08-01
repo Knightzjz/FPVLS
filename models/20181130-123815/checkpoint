@@ -1,0 +1,4 @@
+model_checkpoint_path: "/home/knight/facenet/models/20181130-123815/model-20181130-123815.ckpt-219034"
+all_model_checkpoint_paths: "/home/knight/facenet/models/20181130-123815/model-20181130-123815.ckpt-217034"
+all_model_checkpoint_paths: "/home/knight/facenet/models/20181130-123815/model-20181130-123815.ckpt-218034"
+all_model_checkpoint_paths: "/home/knight/facenet/models/20181130-123815/model-20181130-123815.ckpt-219034"
