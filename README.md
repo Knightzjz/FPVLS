@@ -2,7 +2,7 @@
 
 [travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master
 
-This is a TensorFlow implementation of the Face Pixelation in Live Video Streaming project of <p><font color="red"><b><I>University ML Camp Jeju 2019</font></b></I></p>. Some of the code is built on the MTCNN work in [MTCNN-Tensorflow](https://github.com/AITTSMD/MTCNN-Tensorflow) and [MTCNN_face_detection_alignment](https://github.com/kpzhang93/MTCNN_face_detection_alignment).<br>
+This is a TensorFlow implementation of the Face Pixelation in Live Video Streaming project of <font color="red"><b><I>University ML Camp Jeju 2019</font></b></I>. Some of the code is built on the MTCNN work in [MTCNN-Tensorflow](https://github.com/AITTSMD/MTCNN-Tensorflow) and [MTCNN_face_detection_alignment](https://github.com/kpzhang93/MTCNN_face_detection_alignment).<br>
     
 ## Compatibility
 The code is tested using Tensorflow r1.7 under Ubuntu 14.04 with Python 2.7 and Python 3.5. 
