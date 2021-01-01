@@ -60,16 +60,12 @@ MIT LICENSE
 Note: Please cite the paper if you use the code for implementation.
 
 ### Citation
-    @article{7553523,
-        author={K. Zhang and Z. Zhang and Z. Li and Y. Qiao}, 
-        journal={IEEE Signal Processing Letters}, 
-        title={Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks}, 
-        year={2016}, 
-        volume={23}, 
-        number={10}, 
-        pages={1499-1503}, 
-        keywords={Benchmark testing;Computer architecture;Convolution;Detectors;Face;Face detection;Training;Cascaded convolutional neural network (CNN);face alignment;face detection}, 
-        doi={10.1109/LSP.2016.2603342}, 
-        ISSN={1070-9908}, 
-        month={Oct}
-    }
+    @article{zhou2020personal,
+title={Personal Privacy Protection via Irrelevant Faces Tracking and Pixelation in Video Live Streaming},
+author={Zhou, Jizhe and Pun, Chi-Man},
+journal={IEEE Transactions on Information Forensics and Security},
+volume={16},
+pages={1088--1103},
+year={2020},
+publisher={IEEE}
+}
