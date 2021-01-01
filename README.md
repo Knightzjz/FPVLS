@@ -61,11 +61,19 @@ Note: Please cite the paper if you use the code for implementation.
 
 ### Citation
     @article{zhou2020personal,
-title={Personal Privacy Protection via Irrelevant Faces Tracking and Pixelation in Video Live Streaming},
-author={Zhou, Jizhe and Pun, Chi-Man},
-journal={IEEE Transactions on Information Forensics and Security},
-volume={16},
-pages={1088--1103},
-year={2020},
-publisher={IEEE}
-}
+    title={Personal Privacy Protection via Irrelevant Faces Tracking and Pixelation in Video Live Streaming},
+    author={Zhou, Jizhe and Pun, Chi-Man},
+    journal={IEEE Transactions on Information Forensics and Security},
+    volume={16},
+    pages={1088--1103},
+    year={2020},
+    publisher={IEEE}
+    }
+
+
+
+
+
+
+
+
